@@ -1,0 +1,25 @@
+.App {
+  padding-left: 123px;
+  padding-right: 123px;
+
+  max-width: 1366px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1365px) {
+  .App {
+    padding: 0 42px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .App {
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .App {
+    padding: 0 20px;
+  }
+}
