@@ -1,9 +1,19 @@
 #root[data-theme="dark"] {
   --color: #fff;
   --background: #000;
+
+  --disabled: rgba(255, 255, 255, 0.3);
+  --pagination-bg: #464646;
+
+  --filter-input-bg: #fff;
 }
 
 #root[data-theme="light"] {
   --color: #000;
   --background: #fff;
+
+  --disabled: rgba(0, 0, 0, 0.3);
+  --pagination-bg: #ededed;
+
+  --filter-input-bg: #efefef;
 }

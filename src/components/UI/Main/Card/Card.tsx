@@ -7,7 +7,6 @@ interface ICard {
 }
 
 const Card: FC<ICard> = ({ picture }) => {
-  console.log(picture.imageUrl);
   return (
     <figure className={style.card}>
       <img className={style.card__img} src={picture.imageUrl} alt="img" />
