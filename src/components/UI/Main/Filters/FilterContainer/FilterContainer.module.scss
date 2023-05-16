@@ -1,12 +1,11 @@
 .filter__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
-}
+  gap: 15px;
 
-@media (max-width: 767px) {
-  .filter__container {
-    display: flex;
+  @media (max-width: 320px) {
     flex-direction: column;
     gap: 15px;
   }

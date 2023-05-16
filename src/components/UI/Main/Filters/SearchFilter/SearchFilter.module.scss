@@ -1,5 +1,5 @@
 .searchFilter {
-  width: 265px;
+  max-width: 265px;
   height: 45px;
   padding: 0 15px;
   background: transparent;
@@ -7,4 +7,16 @@
   border-radius: 8px;
   border: 1px solid var(--color);
   color: var(--color);
+
+  @media (max-width: 320px) {
+    max-width: 280px;
+  }
+
+  @media (min-width: 321px) and (max-width: 768px) {
+    max-width: 160px;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    max-width: 220px;
+  }
 }

@@ -9,7 +9,9 @@ import "@/assets/styles/base.scss";
 const root = document.querySelector("#root") as HTMLElement;
 const queryClient = new QueryClient();
 createRoot(root).render(
-  <QueryClientProvider client={queryClient}>
-    <App />
-  </QueryClientProvider>
+	<StrictMode>
+		<QueryClientProvider client={queryClient}>
+			<App />
+		</QueryClientProvider>
+	</StrictMode>
 );
